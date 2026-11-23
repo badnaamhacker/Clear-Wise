@@ -1,0 +1,578 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#101827">
+<meta name="description" content="Clear Wise Privacy Policy, Terms and Conditions, Data Safety and Support information.">
+<title>Clear Wise — Privacy & Policy</title>
+
+<style>
+:root {
+  --bg:#f5f7fb;
+  --surface:#ffffff;
+  --text:#172033;
+  --muted:#687386;
+  --accent:#3978ed;
+  --border:#e6eaf1;
+  --soft:#edf3ff;
+}
+body.dark {
+  --bg:#0c1220;
+  --surface:#151e30;
+  --text:#edf2ff;
+  --muted:#a4afc2;
+  --accent:#75a2ff;
+  --border:#29354a;
+  --soft:#202e48;
+}
+* {box-sizing:border-box;margin:0;padding:0}
+html {scroll-behavior:smooth;scroll-padding-top:90px}
+body {
+  font-family:Inter,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+  background:var(--bg);
+  color:var(--text);
+  line-height:1.75;
+  transition:.25s;
+}
+a {color:var(--accent);text-decoration:none}
+header {
+  position:sticky;top:0;z-index:10;
+  background:var(--surface);
+  border-bottom:1px solid var(--border);
+}
+.nav {
+  max-width:1100px;margin:auto;padding:13px 20px;
+  display:flex;align-items:center;justify-content:space-between;
+  gap:15px;
+}
+.brand {display:flex;align-items:center;gap:11px;font-weight:800;font-size:19px}
+.logo {
+  width:38px;height:38px;border-radius:12px;
+  display:grid;place-items:center;
+  background:var(--accent);color:white;font-size:21px;
+}
+.nav-right {display:flex;align-items:center;gap:10px}
+.theme {
+  border:1px solid var(--border);background:var(--bg);
+  color:var(--text);padding:9px 13px;border-radius:10px;
+  cursor:pointer;font-size:17px;
+}
+.hero {
+  padding:65px 20px 50px;text-align:center;
+  background:linear-gradient(145deg,var(--soft),var(--bg));
+}
+.hero .tag {
+  display:inline-block;background:var(--surface);
+  border:1px solid var(--border);padding:5px 13px;
+  border-radius:30px;font-size:12px;color:var(--accent);
+  font-weight:700;letter-spacing:1px;
+}
+.hero h1 {font-size:clamp(32px,6vw,53px);margin:18px 0 10px;letter-spacing:-1.5px}
+.hero p {max-width:620px;margin:auto;color:var(--muted)}
+.updated {margin-top:17px!important;font-size:13px}
+.container {
+  max-width:1100px;margin:35px auto;padding:0 20px;
+  display:grid;grid-template-columns:245px 1fr;gap:28px;
+  align-items:start;
+}
+.sidebar {
+  position:sticky;top:82px;background:var(--surface);
+  border:1px solid var(--border);border-radius:16px;padding:18px;
+}
+.sidebar h3 {font-size:13px;margin-bottom:12px;color:var(--muted)}
+.sidebar a {
+  display:block;padding:10px 12px;border-radius:9px;
+  color:var(--text);font-size:14px;margin:3px 0;
+}
+.sidebar a:hover {background:var(--soft);color:var(--accent)}
+.content {min-width:0}
+.section {
+  background:var(--surface);border:1px solid var(--border);
+  border-radius:16px;padding:27px;margin-bottom:22px;
+}
+.section h2 {font-size:23px;margin-bottom:15px;letter-spacing:-.4px}
+.section h3 {font-size:16px;margin:23px 0 7px}
+.section p {color:var(--muted);margin-bottom:12px;font-size:14px}
+.section ul {padding-left:21px;margin:10px 0 15px}
+.section li {color:var(--muted);font-size:14px;margin-bottom:7px}
+.info {
+  background:var(--soft);border-left:3px solid var(--accent);
+  padding:14px 16px;border-radius:8px;margin:15px 0;
+  font-size:14px;
+}
+.cards {
+  display:grid;grid-template-columns:repeat(2,1fr);
+  gap:13px;margin:20px 0;
+}
+.mini {
+  padding:17px;background:var(--bg);
+  border:1px solid var(--border);border-radius:12px;
+}
+.mini strong {display:block;margin-bottom:5px;font-size:14px}
+.mini span {font-size:12px;color:var(--muted)}
+footer {
+  text-align:center;padding:35px 20px;
+  border-top:1px solid var(--border);
+  color:var(--muted);font-size:13px;
+}
+footer strong {color:var(--text)}
+.contact {
+  display:flex;flex-wrap:wrap;gap:12px;margin-top:15px;
+}
+.contact a {
+  display:inline-block;padding:10px 16px;
+  background:var(--soft);border-radius:9px;font-size:13px;
+}
+@media(max-width:760px) {
+  .container {grid-template-columns:1fr;margin-top:18px}
+  .sidebar {position:relative;top:0}
+  .sidebar nav {display:grid;grid-template-columns:1fr 1fr;gap:3px}
+  .section {padding:21px}
+  .cards {grid-template-columns:1fr 1fr}
+  .hero {padding:45px 18px}
+}
+@media(max-width:400px) {
+  .cards {grid-template-columns:1fr}
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <div class="nav">
+    <div class="brand">
+      <div class="logo">C</div>
+      <span>Clear Wise</span>
+    </div>
+    <div class="nav-right">
+      <button class="theme" onclick="toggleTheme()" aria-label="Toggle theme">☾</button>
+    </div>
+  </div>
+</header>
+
+<section class="hero">
+  <span class="tag">PRIVACY FIRST</span>
+  <h1>Your Data. Your Control.</h1>
+  <p>
+    Transparency matters. Learn how Clear Wise handles your
+    information, protects your privacy and gives you control
+    over your personal expense data.
+  </p>
+  <p class="updated">Last Updated: November 23, 2026</p>
+</section>
+
+<div class="container">
+
+  <aside class="sidebar">
+    <h3>DOCUMENT NAVIGATION</h3>
+    <nav>
+      <a href="#overview">Overview</a>
+      <a href="#privacy">Privacy Policy</a>
+      <a href="#collection">Data Collection</a>
+      <a href="#storage">Data Storage</a>
+      <a href="#backup">Backup & Export</a>
+      <a href="#security">Data Security</a>
+      <a href="#deletion">Data Deletion</a>
+      <a href="#thirdparty">Third Parties</a>
+      <a href="#children">Children's Privacy</a>
+      <a href="#terms">Terms & Conditions</a>
+      <a href="#disclaimer">Disclaimer</a>
+      <a href="#contact">Contact Us</a>
+    </nav>
+  </aside>
+
+  <main class="content">
+
+    <section class="section" id="overview">
+      <h2>Welcome to Clear Wise</h2>
+      <p>
+        Clear Wise is an expense management application designed
+        to help users organize shared expenses, manage rooms,
+        track payments, calculate settlements and understand
+        their spending.
+      </p>
+      <p>
+        This page explains our privacy practices and the terms
+        that apply when using the Clear Wise application.
+      </p>
+
+      <div class="cards">
+        <div class="mini">
+          <strong>Offline First</strong>
+          <span>Core expense management is designed for local device storage.</span>
+        </div>
+        <div class="mini">
+          <strong>No Mandatory Login</strong>
+          <span>No account is required to use the core app features.</span>
+        </div>
+        <div class="mini">
+          <strong>User Control</strong>
+          <span>Users manage their own rooms and expense records.</span>
+        </div>
+        <div class="mini">
+          <strong>Data Management</strong>
+          <span>Backup, restore and export options are available.</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="privacy">
+      <h2>1. Privacy Policy</h2>
+      <p>
+        Your privacy is important to us. Clear Wise is designed
+        to provide expense management without requiring users
+        to create an online account.
+      </p>
+      <p>
+        The app's core functionality is designed to work offline.
+        Information entered into the app is primarily stored
+        locally on your device.
+      </p>
+      <div class="info">
+        Clear Wise does not require you to submit your personal
+        expense records to a Clear Wise account or cloud server
+        to use its core functionality.
+      </div>
+    </section>
+
+    <section class="section" id="collection">
+      <h2>2. Information We Handle</h2>
+      <p>
+        Depending on how you use Clear Wise, the following
+        information may be entered and stored in the application:
+      </p>
+
+      <h3>Room Information</h3>
+      <ul>
+        <li>Room names and descriptions.</li>
+        <li>Member names and room-related information.</li>
+        <li>Room-specific currency preferences.</li>
+      </ul>
+
+      <h3>Expense Information</h3>
+      <ul>
+        <li>Expense amounts and descriptions.</li>
+        <li>Payment and settlement records.</li>
+        <li>Budgets and spending information.</li>
+        <li>Activity history and edit history.</li>
+      </ul>
+
+      <h3>App Preferences</h3>
+      <ul>
+        <li>Selected currency and application settings.</li>
+        <li>User-configured preferences.</li>
+      </ul>
+
+      <p>
+        This information is provided by you. Clear Wise does
+        not need access to your bank account or banking password
+        to perform its normal expense calculations.
+      </p>
+
+      <div class="info">
+        Clear Wise does not automatically create rooms, members
+        or expenses. Users create and manage their own records.
+      </div>
+    </section>
+
+    <section class="section" id="storage">
+      <h2>3. Data Storage</h2>
+      <p>
+        Core application information is designed to be stored
+        in the application's local storage/database on your
+        Android device.
+      </p>
+      <ul>
+        <li>No mandatory online account is required.</li>
+        <li>Core expense features are designed to work offline.</li>
+        <li>Your records remain associated with your device.</li>
+        <li>Uninstalling the application may delete locally stored data.</li>
+      </ul>
+      <p>
+        We do not claim that local data is automatically backed
+        up to an online server. You should maintain your own
+        backup if you want to preserve your records.
+      </p>
+    </section>
+
+    <section class="section" id="backup">
+      <h2>4. Backup, Restore & Export</h2>
+      <p>
+        Clear Wise provides data management features so users
+        can maintain and transfer their records.
+      </p>
+
+      <h3>Database Backup & Restore</h3>
+      <p>
+        Users can create a database backup and restore supported
+        backup files when required.
+      </p>
+
+      <h3>External Storage Providers</h3>
+      <p>
+        Users may choose a storage destination through Android's
+        file selection system, including a supported cloud storage
+        provider such as Google Drive.
+      </p>
+      <p>
+        If you choose an external provider, your backup file may
+        be transferred to that provider. Its privacy policy and
+        security practices will apply to that service.
+      </p>
+
+      <h3>CSV Import & Export</h3>
+      <p>
+        Users can import or export supported room expense records
+        through CSV files.
+      </p>
+
+      <div class="info">
+        Backup and export operations are user-initiated.
+        Review your backup files carefully and keep them secure.
+      </div>
+    </section>
+
+    <section class="section" id="security">
+      <h2>5. Data Security</h2>
+      <p>
+        We aim to keep the application simple and privacy-conscious.
+        Users should protect their Android devices with appropriate
+        screen locks and security settings.
+      </p>
+      <ul>
+        <li>Do not share backup files with untrusted people.</li>
+        <li>Keep your device software updated.</li>
+        <li>Store exported files in secure locations.</li>
+        <li>Do not share sensitive expense information unnecessarily.</li>
+      </ul>
+      <p>
+        No digital storage method can guarantee absolute security.
+        We cannot guarantee protection against every possible
+        device failure, malware infection or unauthorized access.
+      </p>
+    </section>
+
+    <section class="section" id="deletion">
+      <h2>6. Data Retention & Deletion</h2>
+      <p>
+        Clear Wise includes a Trash Bin feature designed to
+        automatically delete eligible trashed records after
+        30 days.
+      </p>
+      <p>
+        Users should review their Trash Bin before permanent
+        deletion. Once records are permanently deleted, recovery
+        may not be possible unless a valid backup exists.
+      </p>
+      <p>
+        Users can also manage their application data through
+        available in-app controls and Android application settings.
+      </p>
+      <div class="info">
+        Deleting information inside Clear Wise does not
+        automatically delete copies previously exported or
+        uploaded to external storage providers.
+      </div>
+    </section>
+
+    <section class="section" id="thirdparty">
+      <h2>7. Third-Party Services</h2>
+      <p>
+        Clear Wise may interact with external services when
+        users voluntarily use features such as file selection
+        or external backup storage.
+      </p>
+      <p>
+        Such external services operate independently and are
+        governed by their own privacy policies and terms.
+      </p>
+      <p>
+        Clear Wise does not require a third-party account for
+        its core expense management functionality.
+      </p>
+      <p>
+        Any future introduction of advertising, analytics,
+        crash reporting or additional third-party services
+        will require this policy to be reviewed and updated
+        before release.
+      </p>
+    </section>
+
+    <section class="section" id="children">
+      <h2>8. Children's Privacy</h2>
+      <p>
+        Clear Wise is a general expense management utility.
+        It is not specifically designed to collect personal
+        information from children.
+      </p>
+      <p>
+        We do not knowingly request children's personal
+        information through an online account registration
+        system because the core application does not require
+        such registration.
+      </p>
+    </section>
+
+    <section class="section" id="terms">
+      <h2>9. Terms & Conditions</h2>
+
+      <h3>Acceptance of Terms</h3>
+      <p>
+        By installing or using Clear Wise, you agree to these
+        terms. If you do not agree, please discontinue using
+        the application.
+      </p>
+
+      <h3>Permitted Use</h3>
+      <p>
+        You may use Clear Wise for personal expense management,
+        shared expense tracking, payment calculations and
+        related organizational purposes.
+      </p>
+
+      <h3>Accuracy of Information</h3>
+      <p>
+        You are responsible for entering accurate expense,
+        payment, member and settlement information.
+      </p>
+
+      <h3>Financial Calculations</h3>
+      <p>
+        Clear Wise is an expense calculation and organization
+        tool. It is not a bank, payment processor, financial
+        institution or accounting authority.
+      </p>
+      <p>
+        Always independently verify important payment amounts
+        and financial settlements before making actual payments.
+      </p>
+
+      <h3>Backup Responsibility</h3>
+      <p>
+        You are responsible for maintaining appropriate backups
+        of important information. We are not responsible for
+        information lost due to device damage, accidental deletion,
+        application removal or unsuccessful backup operations.
+      </p>
+
+      <h3>Misuse</h3>
+      <p>
+        You must not use the application for unlawful activities,
+        fraudulent purposes or any activity that violates
+        applicable laws.
+      </p>
+
+      <h3>Application Changes</h3>
+      <p>
+        Application features, functionality and these terms
+        may change over time. Updated terms will be published
+        on this page.
+      </p>
+    </section>
+
+    <section class="section" id="disclaimer">
+      <h2>10. Disclaimer & Limitation</h2>
+      <p>
+        Clear Wise is provided as an expense management utility.
+        Although we aim to maintain accurate calculations and
+        reliable functionality, we do not guarantee that the
+        application will always operate without errors or
+        interruptions.
+      </p>
+      <p>
+        To the extent permitted by applicable law, we are not
+        responsible for indirect losses resulting from incorrect
+        user-entered information, data loss, device failure or
+        misuse of the application.
+      </p>
+      <p>
+        Nothing in these terms excludes any consumer rights
+        that cannot legally be excluded under applicable law.
+      </p>
+    </section>
+
+    <section class="section" id="changes">
+      <h2>11. Changes to This Policy</h2>
+      <p>
+        We may update this Privacy Policy and Terms & Conditions
+        when the application changes or when legal requirements
+        require an update.
+      </p>
+      <p>
+        The latest version will always be published on this page.
+        Please check the Last Updated date whenever you revisit.
+      </p>
+    </section>
+
+    <section class="section" id="contact">
+      <h2>12. Contact & Support</h2>
+      <p>
+        If you have any questions, concerns, privacy requests
+        or support-related issues regarding Clear Wise, contact
+        the application developer using the details below.
+      </p>
+
+      <div class="info">
+        Developer Name: [YOUR DEVELOPER NAME]<br>
+        App Name: Clear Wise<br>
+        Email: [YOUR SUPPORT EMAIL]
+      </div>
+
+      <div class="contact">
+        <a href="mailto:YOUR_EMAIL@example.com">✉ Contact Support</a>
+      </div>
+
+      <p style="margin-top:20px">
+        We will make reasonable efforts to review and respond
+        to genuine support and privacy-related requests.
+      </p>
+    </section>
+
+    <section class="section">
+      <h2>Thank You for Using Clear Wise</h2>
+      <p>
+        We believe expense management should be simple,
+        transparent and under your control.
+      </p>
+      <p>
+        Thank you for trusting Clear Wise.
+      </p>
+      <p><strong>Clear Wise — Manage Expenses. Stay Clear.</strong></p>
+    </section>
+
+  </main>
+</div>
+
+<footer>
+  <strong>Clear Wise</strong>
+  <p>Manage Expenses. Stay Clear.</p>
+  <p>© 2026 Clear Wise. All rights reserved.</p>
+  <p>Privacy • Transparency • User Control</p>
+</footer>
+
+<script>
+function toggleTheme() {
+  document.body.classList.toggle("dark");
+
+  const dark = document.body.classList.contains("dark");
+  document.querySelector(".theme").textContent =
+    dark ? "☀" : "☾";
+
+  try {
+    localStorage.setItem("clearwise-theme", dark ? "dark" : "light");
+  } catch(e) {}
+}
+
+try {
+  if (localStorage.getItem("clearwise-theme") === "dark") {
+    document.body.classList.add("dark");
+    document.querySelector(".theme").textContent = "☀";
+  }
+} catch(e) {}
+</script>
+
+</body>
+</html>
